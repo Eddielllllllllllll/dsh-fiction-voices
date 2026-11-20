@@ -1,0 +1,47 @@
+{
+  "name": "dsh-fiction-voices",
+  "version": "1.0.0",
+  "description": "Registers five Chinese prose-voice skills for fiction: jiangnan, fanhua, kuangbiao, tangxi and jinhua.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "skill",
+    "writing",
+    "fiction",
+    "novel",
+    "chinese",
+    "prose",
+    "style",
+    "文笔",
+    "小说",
+    "笔法",
+    "方言"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eddielllllllllllll/dsh-fiction-voices.git"
+  },
+  "license": "MIT",
+  "author": "Eddielllllllllllll",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": ">=0.1.0-rc.6 <0.3.0"
+  }
+}
