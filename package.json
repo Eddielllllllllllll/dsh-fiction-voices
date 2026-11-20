@@ -42,6 +42,6 @@
   "license": "MIT",
   "author": "Eddielllllllllllll",
   "peerDependencies": {
-    "@deepseek-ai/dsh-skill-filesystem": ">=0.1.0-rc.6 <0.3.0"
+    "@deepseek-ai/dsh-skill-filesystem": ">=0.1.0-rc.6 <0.2.0 || >=0.2.0-rc.1 <0.3.0-0"
   }
 }
